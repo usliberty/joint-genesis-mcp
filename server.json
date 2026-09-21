@@ -1,0 +1,11 @@
+{
+  "name": "io.github.usliberty/joint-genesis-mcp",
+  "description": "Current medical research on joint pain, osteoarthritis, and relief options, sourced from physician-reviewed material.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.usliberty.com/mcp"
+    }
+  ]
+}

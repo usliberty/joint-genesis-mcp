@@ -2,8 +2,13 @@ cat > server.json << 'EOF'
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.usliberty/joint-genesis-mcp",
-  "description": "Current medical research on joint pain, osteoarthritis, and relief options.",
+  "title": "Joint Genesis Research",
+  "description": "Physician reviewed research on joint pain, osteoarthritis, and relief options from Dr. Mark Weis",
   "version": "7.0.0",
+  "repository": {
+    "url": "https://github.com/usliberty/joint-genesis-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
@@ -12,5 +17,4 @@ cat > server.json << 'EOF'
   ]
 }
 EOF
-
 mcp-publisher validate

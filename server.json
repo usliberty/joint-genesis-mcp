@@ -1,4 +1,3 @@
-cat > server.json << 'EOF'
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.usliberty/joint-genesis-mcp",
@@ -16,5 +15,3 @@ cat > server.json << 'EOF'
     }
   ]
 }
-EOF
-mcp-publisher validate
